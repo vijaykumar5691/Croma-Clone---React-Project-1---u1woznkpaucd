@@ -1,0 +1,58 @@
+.cardContainer{
+height: 324px;
+width: 268px;
+background-color: #1e131e;
+padding: 10px;
+display: flex;
+flex-direction: column;
+}
+.imgContainer{
+display: flex;
+position: relative;
+margin-bottom: 5px;
+}
+.img{
+height: 200px;
+width: 200px;
+padding: 0px 10px;
+}
+.favIcon{
+position: absolute;
+font-size: 18px;
+right: 15px;
+top: 6px;
+color: gray;
+
+}
+.favIcon:hover{
+    color: green;
+    cursor: pointer;
+}
+.section{
+display: flex;
+flex-direction: column;
+}
+.title{
+margin-bottom: 5px;
+flex-wrap: wrap;
+font-size: 18px;
+padding: 3px 0px;
+}
+.price{
+    display: flex;
+    margin-bottom: 5px;
+    padding: 3px 0px;
+}
+.offerPrice{
+    font-size: 18px;
+}
+.regularPrice{
+    font-size: 14px;
+    text-decoration: line-through;
+    color: gray;
+}
+.rating{
+    margin-bottom: 5px;
+    font-size: 18px;
+    padding: 3px 0px;
+}

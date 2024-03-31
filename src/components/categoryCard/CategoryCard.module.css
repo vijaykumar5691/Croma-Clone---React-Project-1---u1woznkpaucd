@@ -1,0 +1,22 @@
+.container{
+    width: 130px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1e1e1e;
+    padding: 3px;
+}
+.imgContainer{
+padding: 0px 1px;
+}
+.img{
+    width: 120px;
+    height: 130px;
+    text-align: center;
+}
+.heading{
+    margin: 6px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}

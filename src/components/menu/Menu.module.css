@@ -1,0 +1,15 @@
+
+.menuContainer{
+    margin-top: 80px;
+    width: 400px;
+    height: 900px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+.menuHeading{
+padding: 8px 0px;
+}
+.menuItem{
+    padding: 5px 2px;
+}

@@ -28,12 +28,13 @@
     border-radius: 10px;
     border: none;
     outline: none;
-    
+    background-color: white;
 }
 .search_icon{
     position: absolute;
     right: 15px;
     color: black;
+    background-color: white;
 }
 .container{
     width: 20%;
