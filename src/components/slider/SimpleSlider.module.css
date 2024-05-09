@@ -1,0 +1,20 @@
+.sliderContainer{
+    display: flex;
+    /* margin-left: 8%;
+    margin-right: 9%; */
+    /* padding: auto; */
+}
+.leftButton{
+    border: none;
+    /* margin-right: 10px; */
+}
+.children{
+    width: 95%;
+}
+.rightButton{
+    border: none;
+    /* margin-left: 10px; */
+}
+.leftButton,.rightButton :hover{
+    cursor: pointer;
+}

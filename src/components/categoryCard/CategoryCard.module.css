@@ -1,22 +1,26 @@
 .container{
-    width: 130px;
-    height: 160px;
     display: flex;
     flex-direction: column;
-    background-color: #1e1e1e;
+    width: 130px;
+    height: 160px;
     padding: 3px;
+    /* justify-content: center; */
 }
 .imgContainer{
-padding: 0px 1px;
+width: 130px;
+height: 150px;
+
 }
 .img{
-    width: 120px;
-    height: 130px;
+    width: 95%;
+    height: 98%;
     text-align: center;
 }
 .heading{
-    margin: 6px 0px;
+    width: 130px;
+    padding: 5px 5px;
     font-size: 14px;
     font-weight: 600;
+    color: white;
     text-align: center;
 }

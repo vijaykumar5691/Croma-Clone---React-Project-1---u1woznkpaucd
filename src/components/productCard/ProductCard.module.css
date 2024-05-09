@@ -1,0 +1,105 @@
+
+.productCard{
+    width: 31%;
+    margin: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.link{
+    text-decoration: none;
+}
+.container{
+width: 365px;
+/* height: 280px; */
+background-color: #393939;
+border-radius: 8px;
+padding-top: 10px;
+margin-bottom: 15px;
+}
+
+ .imgContainer{
+    display: flex;
+    padding-bottom: 5px;
+    background-color: #393939;
+    padding-left: 40px;
+    }
+    .img{
+    height: 260px;
+    width: 260px;
+    padding: 0px 10px;
+    background-color: #393939;
+    }
+    .favContainer{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        background-color: #393939;
+        right: 15px;
+        top: 6px;
+    }
+    .favIcon{
+    font-size: 24px;
+    right: 15px;
+    top: 10px;
+    color: white;
+    background-color: #393939;
+    }
+    .favIcon:hover{
+        color: green;
+        cursor: pointer;
+    }
+    .section{
+     width: 365px;
+     display: flex;
+     flex-direction: column;
+     color: white;
+    }
+    .ProductTitle{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 3px;
+    }
+    .title{
+    font-size: 16px;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    }
+    .price{
+        display: flex;
+        margin-bottom: 5px 0px;
+        padding: 4px 0px;
+    }
+    .offerPrice{
+        font-weight: 800;
+        font-size: 16px;
+        color: white;
+    }
+    .regularPrice{
+        font-size: 14px;
+        text-decoration: line-through;
+        color: gray;
+        padding-left: 5px;
+    }
+    .rating{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 5px;
+        font-size: 16px;
+        padding: 3px 0px;
+        color: rgb(16, 202, 140);
+    
+    }
+    .star{
+        margin-top: 5px;
+    }
+    .currencySymbol{
+        margin-top: 3px;
+        color: white;
+    }

@@ -1,15 +1,33 @@
 
 .menuContainer{
-    margin-top: 80px;
+    /* z-index: 100; */
+    position: absolute;
+    top: 10vh;
+    left: 12%;
+    /* transform: translateX(-50%); */
     width: 400px;
-    height: 900px;
-    background-color: black;
+    /* height: 800px; */
+    background-color: #0e0d0d;
     padding: 10px;
     color: white;
+    overflow-y: auto;
 }
 .menuHeading{
-padding: 8px 0px;
+padding: 10px 10px;
+background-color: #0e0d0d;
+
 }
 .menuItem{
-    padding: 5px 2px;
+    padding: 15px 10px;
+    background-color: #0e0d0d;
+    min-height: 20px;
+    
+}
+.menuItem:hover{
+    background-color: #12daa8;
+    color: black;
+}
+.link{
+    text-decoration: none;
+    color: white;
 }

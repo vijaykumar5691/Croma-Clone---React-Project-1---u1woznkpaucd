@@ -1,0 +1,97 @@
+.wishlistContainer{
+    margin-top: 11vh;
+}
+.headingContainer{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.heading{
+    margin-bottom: 50px;
+    padding: 10px;
+    color: white;
+}
+.container{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 280px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.imgContainer{
+    width: 20%;
+    padding: 50px;
+}
+.img{
+    width: 165px;
+    height: 165px;
+    padding: 10px;
+}
+.prdDetailContainer{
+    width: 50%;
+    padding: 10px 30px;
+}
+.nameContainer{
+    width: 100%;
+    height: 120px;
+
+}
+.name{
+    height: 60px;
+    color: white;
+    overflow: hidden;
+}
+.prdId{
+    margin: 20px 0px;
+    color: white;
+}
+.link{
+    text-decoration: none;
+}
+.priceContainer{
+display: flex;
+gap: 40px;
+}
+.price{
+    color: white;
+}
+.rating{
+    color: white;
+}
+
+.buttonContainer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.addCart{
+    width: 200px;
+    height: 45px;
+    background-color: rgb(4, 236, 159);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+}
+.delete{
+    width: 200px;
+    height: 45px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+.addCart:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}.delete:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+/* .starbgColor{
+    background-color: rgb(19, 19, 19);
+} */

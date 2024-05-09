@@ -1,0 +1,235 @@
+.singleProduct{
+    margin-top: 15vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.sliderContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+.slideImgContainer{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    padding: 3px;
+    justify-content: center;
+}
+.slideImg:hover{
+    border: 3px solid rgb(16, 202, 140);
+    cursor: pointer;
+}
+.slideImg{
+    width: 80px;
+    height: 80px;
+    border: 1px solid gray;
+}
+.firstContainer{
+    display: flex;
+    width: 100%;
+}
+.container{
+    width: 390px;
+    position: relative;
+    margin-left: 30px;
+}
+.imgContainer{
+    width: 380px;
+    padding-left: 25px;
+    text-align: center;
+}
+.imgContainer:hover{
+    
+}
+.img{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+}
+.favContainer{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+.favIcon{
+    position: absolute;
+    font-size: 24px;
+    right: 10px;
+    top: 5px;
+    color: white;
+}
+.favIcon:hover{
+    color: green;
+    cursor: pointer;
+}
+.secondContainer{
+    width: 100%;
+    padding: auto;
+}
+.headingContainer{
+    margin-bottom: 10px;
+}
+.heading{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 5px 0px;
+}
+.ratingContainer{
+    margin: 10px 0px;
+    padding: 3px;
+}
+.rating{
+    display: flex;
+    gap: 8px;
+    color: rgb(4, 236, 159);
+    font-size: 16px;
+}
+.star{
+    margin-top: 3px;
+}
+.priceContainer{
+    margin-bottom: 15px;
+    padding: 3px;
+}
+.currencyContainer{
+    display: flex;
+    align-items: center;
+}
+.currencySymbol{
+    font-size: 20px;
+    color: red;
+}
+.price{
+    color: red;
+    font-size: 20px;
+}
+.taxText{
+    color: white;
+    font-size: 12px;
+}
+.featureContainer{
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 10px 0px;
+    padding: 15px 3px;
+    width: 95%;
+}
+.keyFeatures{
+    color: white;
+    margin: 5px 10px;
+    font-size: 14px;
+}
+.features{
+    margin: 8px 30px;
+    color: white;
+}
+.featureItem{
+    font-size: 14px;
+}
+.overviewContainer{
+    margin-bottom: 11vh;
+}
+.overviews{
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 10px 10px;
+    padding: 15px 8px;
+}
+.overviewHeading{
+    font-size: 20px;   
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    color: white;
+    padding: 0px 10px;
+}
+.description{
+    margin-bottom: 20px;
+    margin-left: 15px;
+    color: whitesmoke;
+    padding: 0px 10px;
+}
+.customerRatingContainer{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.customerRating{
+    font-size: 20px;   
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    padding: 0px 10px;
+}
+.prdRating{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: rgb(4, 236, 159);
+    font-size: 16px;
+    padding: 0px 10px5
+}
+.bottomNav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    z-index: 100;
+    align-items: center;
+    position: fixed;
+    top: 91vh;
+}
+.left{
+    display: flex;
+    align-items: center;
+    /* justify-content: start; */
+    width: 40%;
+    margin-left: 11%;
+    background-color: black;
+}
+.prdImg{
+    width: 35px;
+    height: 35px;
+    padding: 10px 10px 10px 0px;
+    background-color: black;
+}
+.prdName{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin-right: 16%;
+    background-color: black;
+}
+.buy{
+    width: 130px;
+    margin: 0px 10px;
+    padding: 12px 0px;
+    background-color: rgb(4, 236, 159);
+    border-radius: 10px;
+    font-weight: 700;
+    border: none;
+}
+.addCart{
+    width: 150px;
+    margin: 0px 10px;
+    padding: 12px 0px;
+    background-color: gray;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.buy,.addCart:hover{
+    cursor: pointer;
+}

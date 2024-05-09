@@ -1,31 +1,63 @@
+.nav{
+    width: 100%;
+    max-height: 80px;
+    height: 78px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+
+}
 .navbar{
     display: flex;
     width: 100%;
     max-height: 80px;
     height: 78px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 0px 15px;
     background-color: black;
     color: white;
-    position: fixed;
-    top: 0;
+    z-index: 100;
+}
+.left{
+    display: flex;
+    gap: 1%;
+    width: 70%;
+    align-items: center;
+    background-color: black;
+}
+.imgContainer{
+    width: 20%;
+    background-color: black;
+}
+.logo{
+    width: 130px;
+    height: 78px;
+    background-color: black;
+}
+.menuContainer{
+width: 15%;
+background-color: black;
 }
 .menu{
     display: flex;
     align-items: center;
     cursor: pointer;
+    background-color: black;
+}
+.searchContainer{
+    width: 55%;
+    background-color: black;
 }
 .searchbar{
     display: flex;
     align-items: center;
-    width: 30%;
     position: relative;
 }
 .search{
     padding: 11px 22px;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     outline: none;
     background-color: white;
@@ -36,22 +68,33 @@
     color: black;
     background-color: white;
 }
-.container{
-    width: 20%;
+.right{
+width: 19%;
+display: flex;
+gap: 10%;
+align-items: center;
+background-color: black;
+}
+.locContainer{
     display: flex;
+    gap: 2%;
+    align-items: center;
     justify-content: space-evenly;
-    align-items: center;
+    background-color: black;
 }
-.loc_container{
-    display: flex;
-    align-items: center;
+.userContainer{
+    /* background-color: black; */
 }
-.profile_icon{
+.user,.cartContainer{
     cursor: pointer;
+    background-color: black;
 }
-.profile_icon:hover{
+.user:hover{
     color: rgb(4, 236, 159);
 }
-.cart_container{
-    cursor: pointer;
+.text,.menuIcon,.place,.editIcon,.cartIcon,.userContainer,.edit,.locIcon,.location{
+    background-color: black;
+}
+.location,.edit{
+    font-size: 12px;
 }

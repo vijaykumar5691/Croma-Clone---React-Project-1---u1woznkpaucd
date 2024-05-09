@@ -13,7 +13,7 @@ const LoginSignupPage = () => {
   const [show, setShow] = useState(true);
   const navigate = useNavigate();
 
-  const { setLoginState } = useContext(LoginContext);
+  const { setIsLogin } = useContext(LoginContext);
   var nameRegex = /^[a-z,',-]+(\s)[a-z,',-]+$/i;
   var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
@@ -51,7 +51,7 @@ const LoginSignupPage = () => {
             .then((res) => {
               console.log(res);
               localStorage.setItem("token", res.token);
-              setLoginState(true);
+              setIsLogin(true);
               setTimeout(() => {
                 navigate("/");
                 // setTab("login");

@@ -1,0 +1,103 @@
+.cardContainer{
+    height: 330px;
+    width: 23%px;
+    background-color: #0d0d0d;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin:0px 10px;
+    position: relative;
+    
+    }
+    .link{
+        text-decoration: none;
+    }
+    .imgContainer{
+    display: flex;
+    padding-bottom: 5px;
+    background-color: #0d0d0d;
+    }
+    .img{
+    height: 200px;
+    width: 200px;
+    padding: 0px 10px;
+    background-color: #0d0d0d;
+    
+    }
+    .favContainer{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        background-color: #0d0d0d;
+        right: 15px;
+        top: 6px;
+    }
+    
+    .wishlist{
+        color: rgb(4, 236, 159);
+        background-color: #0d0d0d;
+        font-size: 22px;
+    }
+    .favIcon:hover{
+        color: green;
+        cursor: pointer;
+    }
+    .section{
+    display: flex;
+    flex-direction: column;
+    background-color: #0d0d0d;
+    color: white;
+    }
+    .ProductTitle{
+        width: 100%;
+        height: 30px;
+        background-color: #0d0d0d;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 3px;
+    }
+    .title{
+    font-size: 16px;
+    background-color: #0d0d0d;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    }
+    .price{
+        display: flex;
+        margin-bottom: 5px 0px;
+        padding: 4px 0px;
+        background-color: #0d0d0d;
+    }
+    .offerPrice{
+        font-weight: 650;
+        font-size: 18px;
+        background-color: #0d0d0d;
+        color: white;
+    }
+    .regularPrice{
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: line-through;
+        color: gray;
+        background-color: #0d0d0d;
+        padding-left: 2px;
+    }
+    .rating{
+        margin-bottom: 5px;
+        font-size: 18px;
+        padding: 3px 0px;
+        background-color: #0d0d0d;
+        color: white;
+    
+    }
+    .currencySymbol{
+        margin-top: 3px;
+        font-size: 18px;
+        color: white;
+        background-color: #0d0d0d;
+    
+    }

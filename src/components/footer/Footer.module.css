@@ -1,0 +1,112 @@
+.footerContainer{
+    height: 380px;
+    margin-top: 50px;
+    background-color: #252525;
+}
+.container{
+display: flex;
+gap: 3%;
+padding-top: 20px;
+background-color: #252525;
+}
+.leftContainer{
+    width: 28%;
+    background-color: #252525;
+}
+.leftHeadingContainer{
+    /* margin-top: 10px; */
+    background-color: #252525;
+}
+.leftHeading,.usefulLinks{
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #252525;
+}
+.inputContainer{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    position: relative;
+    background-color: #252525;  
+}
+.input{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 70%;
+    background-color: whitesmoke;
+    font-size: 16px;
+    outline: none;
+}
+.icon{
+    position: absolute;
+    right: 35%;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.arrow{
+    background-color: whitesmoke;
+}
+.iconContainer{
+    margin: 15px 0px;
+    padding: 10px 0px;
+    background-color: #252525;
+}
+.tubeContainer,.facebookContainer,.instaContainer,.twitterContainer{
+    padding: 0px  4%;
+    background-color: #252525;
+}
+.copyrights{
+    width: 80%;
+}
+.copyrightsText,.twitterIcon,.instaIcon,.facebookIcon,.tubeIcon{
+    color: white;
+    background-color: #252525;
+}
+.tubeIcon:hover{
+    color: red;
+}
+.twitterIcon:hover{
+    color: rgb(17, 98, 213);
+}
+.instaIcon:hover{
+    color: rgb(210, 11, 50);
+}
+.facebookIcon:hover{
+    color: rgb(53, 53, 151);
+}
+
+.middleContainer{
+    width: 32%;
+    padding-right: 1%;
+    background-color: #252525;
+}
+.linksContainer{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #252525;
+}
+.first,.second,.one,.two{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #252525;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #252525;
+}
+.link:hover{
+    color: rgb(4, 236, 159);
+}
+
+.rightContainer{
+    width: 31%;
+    padding: 0px 1%;
+    background-color: #252525;
+}
