@@ -16,11 +16,12 @@ const DropDownItem = (Props) => {
     if (token) {
       localStorage.removeItem("token");
       localStorage.removeItem("cartItem");
+      setIsLogin(false);
       navigate("/login");
     }
   };
   const handleLogin = () => {
-    setIsLogin(false);
+    setIsLogin(true);
     navigate("/login");
   };
 

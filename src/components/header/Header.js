@@ -24,9 +24,9 @@ const Header = () => {
   const [orders, setOrders] = useState([]);
   const { isLogin, cartLength, setCartLength, address, setAddress } =
     useContext(LoginContext);
-
+  const token = localStorage.getItem("token");
   useEffect(() => {
-    if (localStorage.getItem("token")) {
+    if (token) {
       fetcher(`ecommerce/order`)
         .then((res) => {
           setOrders(res.data);
@@ -152,7 +152,7 @@ const Header = () => {
             {showDropdown && <DropDownItem />}
             <div className={styles.cartContainer}>
               <Badge
-                badgeContent={cartLength}
+                badgeContent={token && cartLength}
                 color="primary"
                 onClick={() => navigate("/cart")}
               >
